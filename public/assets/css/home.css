@@ -1,0 +1,9 @@
+.header {
+  font-family: 'Inconsolata', monospace;
+  background-color: #1f1f1f1f;
+  margin: 40px;
+}
+
+.sub-title {
+  padding-left: 10px;
+}
