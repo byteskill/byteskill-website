@@ -19,12 +19,15 @@
 		<link rel="manifest" href="assets/images/logo/site.webmanifest">
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/css/all.min.css"> <!-- Fontawesome -->
+		<link rel="stylesheet" type="text/css" href="assets/css/lightslider.css"> <!-- Lightslider -->
 		<link rel="stylesheet" type="text/css" href="assets/css/master.css">
 		<?php
 		foreach($__css as &$ss)
 		{
-			echo '<link rel="stylesheet" type="text/css" href="assets/css/' . $ss . '.css">'; // The dots are for concatonation
+			echo '<link rel="stylesheet" type="text/css" href="'.$ss.'">';
 		}
 		?>
+		<!-- JavaScript -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!-- Jquery -->
+		<srcipt type="text/javascript" src="assets/js/lightslider.js"></srcipt> <!-- Jquery library: lightslider -->
 	</head>
-	<body>

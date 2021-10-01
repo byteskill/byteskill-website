@@ -10,9 +10,15 @@ class Home extends Controller
 	{
 		// code...
 		$css = [
-			'home'=>'home'
+			'home'=>'assets/css/home.css'
+		];
+		$js = [
+			'home'=>'assets/js/home.js'
 		];
 
-		$this->view('home',['title'=>'Home','_css'=>$css]);
+		$this->view('home',['title'=>'Home',
+							'_css'=>$css,
+							'_js'=>$js
+							]);
 	}
 }
