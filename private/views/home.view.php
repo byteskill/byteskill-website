@@ -28,7 +28,7 @@
 		<div class="projects-left">
 			<span class="content">
 				<div class="title"><span>Projects</span></div>
-				<div class="subtitle"><span>At byte<invert-text>skill</invert-text> we strive to make our products the best they can be!<span></div>
+				<div class="subtitle"><span>At byte<invert-text>skill</invert-text> we strive to make our projects the best they can be!<span></div>
 				<div class="text"><span>Through out the development of every single one of our projects, we make sure that we follow the best standards to make our code the clearest it can be. We strive to do this while constantly keeping to our motto of mitigating dead software innovation and keeping to be far, far more than just a learning platform. Every single one of our projects and pieces of software will comply to FOSS standards for we want all to be able to learn and access our porjects and software to be able to learn and innovate from it. And to also contribute and push our ideas and desires to push software innovation to an all time high</span></div>
 			</span>
 		</div>
