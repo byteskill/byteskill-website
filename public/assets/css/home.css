@@ -10,7 +10,7 @@ body {
 
 .section-1 {
   width: 98.9vw;
-  height: 100vh;
+  height: 111vh;
   background-color: var(--color-primary-one);
 }
 
@@ -69,7 +69,7 @@ img {
 
 .section-2 {
   width: 98.9vw;
-  height: 100vh;
+  height: 111vh;
   background-color: var(--color-accent);
 }
 
@@ -129,6 +129,77 @@ img {
   cursor: pointer;
 }
 
+.section-3 {
+  width: 98.9vw;
+  height: 111vh;
+  background-color: var(--color-primary-two);
+}
+
+.projects-container {
+  color: var(--color-primary-two);
+  background-color: var(--color-accent);
+  padding: 2%;
+  position: absolute;
+  top: 285%; right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+}
+
+.projects-container div.title {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.projects-container div.subtitle {
+  font-size: 1.3vw;
+  margin-top: 10px;
+}
+
+.projects-container div.text {
+  font-size: 1.2vw;
+  margin-top: 10px;
+}
+
+.projects-container .projects-right ul li {
+  height: fit-content;
+}
+
+.projects-container .projects-right ul li form input[type="submit"] {
+  background-color: var(--color-primary-two);
+  border: none;
+  border-radius: 24px;
+  font-size: 1.4vw;
+  color: var(--color-primary-one);
+  padding: 1%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.projects-container .projects-right ul li form input[type="submit"]:hover {
+  background-color: var(--color-primary-two);
+  color: var(--color-primary-one);
+  box-shadow: 0 0 5px var(--color-primary-one),
+              0 0 5px var(--color-primary-one);
+  cursor: pointer;
+}
+
+.projects-container .projects-right ul li form input[type="submit"]:active {
+  background-color: var(--color-primary-one);
+  color: var(--color-primary-two);
+  box-shadow: 0 0 5px var(--color-primary-two),
+              0 0 5px var(--color-primary-two);
+  cursor: pointer;
+}
+
+.projects-container .projects-right ul li img {
+  width: 100%;
+  max-height: 60%;
+  margin: auto;
+}
+
 accent-text {
   color: var(--color-accent);
   font-weight: 700;
@@ -137,24 +208,4 @@ accent-text {
 invert-text {
   color: var(--color-primary-one);
   background-color: var(--color-primary-two);
-}
-
-.section-3 .projects-right {
-  width:420px;
-}
-.section-3 .projects-right ul {
-  list-style: none outside none;
-  padding-left: 0;
-  margin-bottom:0;
-}
-.section-3 .projects-right ul li {
-  display: block;
-  float: left;
-  margin-right: 6px;
-  cursor:pointer;
-}
-.section-3 .projects-right ul li img {
-  display: block;
-  height: auto;
-  max-width: 100%;
 }
