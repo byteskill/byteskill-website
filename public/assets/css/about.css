@@ -1,0 +1,79 @@
+body {
+    --color-primary-one: #1F1E1F;
+    --color-primary-two: #FEFEFF;
+    --color-accent: #3AB795;
+  
+    font-family: 'Inconsolata', monospace;
+    background-color: var(--color-accent);
+    color: var(--color-primary-two);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-container {
+    background-color: var(--color-primary-one);
+    padding: 2%;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 16px;
+  }
+  
+  .about-container div.title {
+    font-size: 5vw;
+    font-weight: 700;
+  }
+  
+  .about-container div.subtitle {
+    font-size: 1.3vw;
+    margin-top: 10px;
+  }
+  
+  .about-container div.content-title {
+    font-size: 1.7vw;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  
+  .about-container div.content {
+    font-size: 1.2vw;
+    margin-top: 10px;
+  }
+  
+  .about-container span.github-button button {
+    background-color: var(--color-accent);
+    border: none;
+    border-radius: 24px;
+    font-size: 1.4vw;
+    color: var(--color-primary-one);
+    padding: 1%;
+    margin-top: 10px;
+  }
+  
+  .about-container span.github-button button:hover {
+    background-color: var(--color-primary-one);
+    color: var(--color-accent);
+    box-shadow: 0 0 5px var(--color-accent),
+                0 0 5px var(--color-accent);
+    cursor: pointer;
+  }
+  
+  .about-container span.github-button button:active {
+    background-color: var(--color-primary-one);
+    color: var(--color-primary-two);
+    box-shadow: 0 0 5px var(--color-primary-two),
+                0 0 5px var(--color-primary-two);
+    cursor: pointer;
+  }
+
+  img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+  
+    width: 64px;
+    margin: 10px;
+  }

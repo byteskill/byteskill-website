@@ -2,8 +2,12 @@ body {
     --color-primary-one: #1F1E1F;
     --color-primary-two: #FEFEFF;
     --color-accent: #3AB795;
-  
+
     font-family: 'Inconsolata', monospace;
     background-color: var(--color-primary-one);
     color: var(--color-primary-two);
-  }
+}
+
+.content {
+    margin-left: 100px;
+}

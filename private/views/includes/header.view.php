@@ -19,8 +19,10 @@
 		<link rel="manifest" href="assets/images/logo/site.webmanifest">
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/css/all.min.css"> <!-- Fontawesome -->
+		<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> <!-- More icons -->
 		<link type="text/css" rel="stylesheet" href="assets/css/lightslider.css" /> <!-- Lightslider CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/css/master.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
 		<?php
 		foreach($__css as &$ss)
 		{

@@ -5,7 +5,7 @@
  */
 class App
 {
-    protected $controller = "home";
+    protected $controller = "pgNotFound";
     protected $method = "index";
     protected $params = array();
 
